@@ -35,6 +35,8 @@ end
 
 group :test do
   gem 'capybara', '1.1.2'
+  gem 'libnotify', '0.5.9'
+  gem 'rb-inotify', '0.8.8'
   gem 'factory_girl_rails', '1.4.0'
   gem 'cucumber-rails', '1.2.1', require: false
   gem 'database_cleaner', '0.7.0'
